@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+<title>{% block title %}My Post{% endblock %}</title>
+
+{% block content %}
+<h3>My Post</h3>
+<ul>
+
+        {% if post_list%}
+          {% for post in post_list %}
+              {% if not post.is_published %}
+                <li>
+                    <a href="{{ post.get_absolute_url }}">{{ post.title }}</a> - This post is visible only to you, it will
+                                                                                 become public after the approval of the administration.
+                </li>
+              {% endif %}
+              {% endfor %}
+        {% else %}
+    You dont have any posts yet. Do you wont <a type="button" class="btn btn-dark" href="{% url 'post_create' %}">create</a> ?
+        {% endif %}
+    </li>
+
+</ul>
+<!--  <a href="{% url 'update_profile' %}">Update profile</a>-->
+{% endblock %}

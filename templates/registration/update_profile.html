@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+<title>{% block title %}Update Profile{% endblock %}</title>
+
+{% block content %}
+<h1>Update Profile</h1>
+<br/><br/>
+<div class="form-group">
+    <form method="POST">
+        <a href="{% url 'change_password' %}">Change Password</a>
+        <table>
+            {% csrf_token %}
+            {{form.as_table}}
+        </table>
+        <button class="btn btn-dark">Update</button>
+    </form>
+</div>
+{% endblock %}

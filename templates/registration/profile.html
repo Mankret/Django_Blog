@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+<title>{% block title %}{{user.username}} Profile{% endblock %}</title>
+{% block content %}
+<h3>User profile</h3>
+  <p>Username: {{ user.username }}</p>
+  <p>Email: {{ user.email}}</p>
+<!--  <a href="{% url 'update_profile' %}">Update profile</a>-->
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Posts</h1>
+
+  <ul>
+    {% for post in post_list %}
+    <li>
+        {% if post.is_posted %}
+            {% if post.is_published %}
+
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+                <p>Author: <a href="{% url 'profile' post.author.id %}">{{post.author}}</a></p>
+                <p><small>Short description</small>: {{ post.short_description }}</p>
+
+            {% else %}
+                Post will be added after verification by the administration
+            {% endif %}
+        {% else %}
+            {% if user.id == post.author.id %}
+              <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+
+            {% endif %}
+        The post has not been published yet
+        {% endif %}
+<!--      {% if user.is_authenticated %}-->
+<!--            {% if user.id == post.author.id %}-->
+<!--             - <a href="{% url 'post_update' post.pk %}">Update</a> - -->
+<!--              <a href="{% url 'post_delete' post.pk %}">Delete</a>-->
+<!--            {% endif %}-->
+<!--      {% endif %}-->
+    </li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}
+

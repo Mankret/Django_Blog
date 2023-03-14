@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+<title>{% block title %}Update Post{% endblock %}</title>
+
+{%block content%}
+{% if user.is_authenticated %}
+    <h1>Update Post</h1>
+    <br/><br/>
+
+      <form method="POST">
+          <table>
+              {% csrf_token %}
+              {{form.media}}
+              {{form.as_table}}
+               </table>
+           <button class="btn btn-dark">Update</button>
+      </form>
+
+
+{% else %}
+Please login to continue
+{% endif %}
+{% endblock %}

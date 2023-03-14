@@ -1,0 +1,839 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$4yTwEeT3TNiLFPHy8hfRQg$FpdikZN1O3JkTSM8C5cHRaRoFeKd66RdXc6QTC+ATUM=",
+    "last_login": "2023-03-13T18:10:30.085Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-28T16:20:27.265Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$Y7MIpDfaAMHP1gJGqof8oI$4P+tM0Nxk8Bs0za3UBqt8SkcmRnNXdYQWZJuQQ88VnI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "",
+    "last_name": "",
+    "email": "test@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-01T11:25:50.156Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$flM2zCcuBko1evLeJETqb3$2M4X8rvhRWTAmeGrkvfr6cdG6tZY5cCPDWRE+PpdbpU=",
+    "last_login": "2023-03-02T15:45:20.389Z",
+    "is_superuser": false,
+    "username": "Sometestuser",
+    "first_name": "",
+    "last_name": "",
+    "email": "testuser@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-02T13:19:01.454Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$zLszSKEftVlAI0cXEbrlqb$JRdgpOwf39PM9iVD1PZrJHX9zB/FG/UEhScamryvZio=",
+    "last_login": "2023-03-14T11:13:22.115Z",
+    "is_superuser": false,
+    "username": "samuel",
+    "first_name": "",
+    "last_name": "",
+    "email": "samuel@email.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-02T16:17:12.869Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$13VQrVAV9yc77sg9ueLbhQ$PdjebLEi5ZUImxhN3dj8t2D4cq0Glg6YUxw8KO37Ayw=",
+    "last_login": "2023-03-06T11:05:52.893Z",
+    "is_superuser": false,
+    "username": "barakuda",
+    "first_name": "",
+    "last_name": "",
+    "email": "barakuda@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-05T10:45:00.426Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$JhmQWjyBniwloxDzJGDuVj$Ac6jOkYp8ZYWjq/N8+MrX1uvo44qQrHwuWBmMSq7AGU=",
+    "last_login": "2023-03-06T11:05:29.347Z",
+    "is_superuser": false,
+    "username": "melisa",
+    "first_name": "",
+    "last_name": "",
+    "email": "melisa@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-05T12:31:54.985Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$bdXl1wFoBBUKH9auoXJGv3$Wj51RcozO5gNweq3GyljcsBFU2k7RR/SU072XohunfU=",
+    "last_login": "2023-03-06T11:01:57.405Z",
+    "is_superuser": false,
+    "username": "roberto",
+    "first_name": "",
+    "last_name": "",
+    "email": "roberto@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-05T12:32:38.167Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$kyjMyVFJKLRFNQrzbNZTjJ$uGsjHlaz/qk1d0TB615F3v5vXeANzswdn8pvD/IEaGg=",
+    "last_login": "2023-03-13T18:23:24.188Z",
+    "is_superuser": false,
+    "username": "sezar",
+    "first_name": "",
+    "last_name": "",
+    "email": "sezar@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-03-13T17:55:03.385Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "title": "Test Post",
+    "short_description": "Test post about post",
+    "description": "<p>Created some post to check, how it&#39;s worked!</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-02-28T16:28:39.955Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "author": 4,
+    "title": "1",
+    "short_description": "12",
+    "description": "<p>123</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-02T16:37:37.649Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "author": 4,
+    "title": "Image post",
+    "short_description": "first image post",
+    "description": "<p>Some description</p>",
+    "image": "images/wallpaperflare.com_wallpaper1.jpg",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-03T12:19:51.439Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "title": "Lorem",
+    "short_description": "Lorem Ipsum",
+    "description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-03T13:15:10.250Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "title": "de Finibus",
+    "short_description": "Bonorum et Malorum",
+    "description": "<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-03T15:56:02.030Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "author": 1,
+    "title": "test active",
+    "short_description": "test",
+    "description": "<p>test active</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-03T18:45:44.331Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "author": 1,
+    "title": "pam",
+    "short_description": "pampam",
+    "description": "<p>pampampma</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-03T18:53:33.473Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "author": 7,
+    "title": "Avatar",
+    "short_description": "Avatar  (2009) film",
+    "description": "<p><em><strong>Avatar</strong></em> (marketed as <em><strong>James Cameron&#39;s Avatar</strong></em>) is a 2009 <a href=\"https://en.wikipedia.org/wiki/Epic_film\" title=\"Epic film\">epic</a> <a href=\"https://en.wikipedia.org/wiki/Science_fiction_film\" title=\"Science fiction film\">science fiction film</a> directed, written, co-produced, and co-edited by <a href=\"https://en.wikipedia.org/wiki/James_Cameron\" title=\"James Cameron\">James Cameron</a> and starring <a href=\"https://en.wikipedia.org/wiki/Sam_Worthington\" title=\"Sam Worthington\">Sam Worthington</a>, <a href=\"https://en.wikipedia.org/wiki/Zoe_Salda%C3%B1a\" title=\"Zoe Saldaña\">Zoe Saldana</a>, <a href=\"https://en.wikipedia.org/wiki/Stephen_Lang\" title=\"Stephen Lang\">Stephen Lang</a>, <a href=\"https://en.wikipedia.org/wiki/Michelle_Rodriguez\" title=\"Michelle Rodriguez\">Michelle Rodriguez</a>,<a href=\"https://en.wikipedia.org/wiki/Avatar_(2009_film)#cite_note-6\">[6]</a> and <a href=\"https://en.wikipedia.org/wiki/Sigourney_Weaver\" title=\"Sigourney Weaver\">Sigourney Weaver</a>. It is set in the mid-22nd century, when humans are colonizing <a href=\"https://en.wikipedia.org/wiki/Fictional_universe_of_Avatar#Astronomy_and_geology\" title=\"Fictional universe of Avatar\">Pandora</a>, a lush <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Habitable_moon\" title=\"Habitable moon\">habitable moon</a> of a <a href=\"https://en.wikipedia.org/wiki/Gas_giant\" title=\"Gas giant\">gas giant</a> in the <a href=\"https://en.wikipedia.org/wiki/Alpha_Centauri\" title=\"Alpha Centauri\">Alpha Centauri</a> star system, in order to mine the valuable mineral <a href=\"https://en.wikipedia.org/wiki/Unobtainium\" title=\"Unobtainium\">unobtanium</a>.<a href=\"https://en.wikipedia.org/wiki/Avatar_(2009_film)#cite_note-10\">[a]</a> The expansion of the mining colony threatens the continued existence of a local tribe of <a href=\"https://en.wikipedia.org/wiki/Pandoran_biosphere#Na'vi\" title=\"Pandoran biosphere\">Na&#39;vi</a>, a <a href=\"https://en.wikipedia.org/wiki/Humanoid\" title=\"Humanoid\">humanoid</a> species indigenous to Pandora. The title of the film refers to a <a href=\"https://en.wikipedia.org/wiki/Genetic_engineering\" title=\"Genetic engineering\">genetically engineered</a> Na&#39;vi body <a href=\"https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface\" title=\"Brain–computer interface\">operated from the brain</a> of a remotely located human that is used to <a href=\"https://en.wikipedia.org/wiki/Telepresence\" title=\"Telepresence\">interact</a> with the natives of Pandora.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-05T10:47:14.908Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "author": 4,
+    "title": "Interstellar",
+    "short_description": "Interstellar is a 2014 epic science fiction film",
+    "description": "<p><em><strong>Interstellar</strong></em> is a 2014 <a href=\"https://en.wikipedia.org/wiki/Epic_film\" title=\"Epic film\">epic</a> <a href=\"https://en.wikipedia.org/wiki/Science_fiction_film\" title=\"Science fiction film\">science fiction film</a> co-written, directed, and produced by <a href=\"https://en.wikipedia.org/wiki/Christopher_Nolan\" title=\"Christopher Nolan\">Christopher Nolan</a>. It stars <a href=\"https://en.wikipedia.org/wiki/Matthew_McConaughey\" title=\"Matthew McConaughey\">Matthew McConaughey</a>, <a href=\"https://en.wikipedia.org/wiki/Anne_Hathaway\" title=\"Anne Hathaway\">Anne Hathaway</a>, <a href=\"https://en.wikipedia.org/wiki/Jessica_Chastain\" title=\"Jessica Chastain\">Jessica Chastain</a>, <a href=\"https://en.wikipedia.org/wiki/Bill_Irwin\" title=\"Bill Irwin\">Bill Irwin</a>, <a href=\"https://en.wikipedia.org/wiki/Ellen_Burstyn\" title=\"Ellen Burstyn\">Ellen Burstyn</a>, <a href=\"https://en.wikipedia.org/wiki/Matt_Damon\" title=\"Matt Damon\">Matt Damon</a>, and <a href=\"https://en.wikipedia.org/wiki/Michael_Caine\" title=\"Michael Caine\">Michael Caine</a>. Set in a <a href=\"https://en.wikipedia.org/wiki/Dystopia\" title=\"Dystopia\">dystopian</a> future where humanity is struggling to survive, the film follows a group of <a href=\"https://en.wikipedia.org/wiki/Astronaut\" title=\"\">astronauts</a> who travel through a <a href=\"https://en.wikipedia.org/wiki/Wormhole\" title=\"Wormhole\">wormhole</a> near <a href=\"https://en.wikipedia.org/wiki/Saturn\" title=\"Saturn\">Saturn</a> in search of a new home for mankind.</p>\r\n\r\n<p>Brothers Christopher and <a href=\"https://en.wikipedia.org/wiki/Jonathan_Nolan\" title=\"Jonathan Nolan\">Jonathan Nolan</a> wrote the screenplay, which had its origins in a script Jonathan developed in 2007. <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Caltech\" title=\"Caltech\">Caltech</a> theoretical physicist and 2017 <a href=\"https://en.wikipedia.org/wiki/Nobel_Prize_in_Physics\" title=\"Nobel Prize in Physics\">Nobel laureate in Physics</a><a href=\"https://en.wikipedia.org/wiki/Interstellar_(film)#cite_note-NobelPrize-4\">[4]</a> <a href=\"https://en.wikipedia.org/wiki/Kip_Thorne\" title=\"Kip Thorne\">Kip Thorne</a> was an executive producer, acted as a scientific consultant, and wrote a tie-in book, <em><a href=\"https://en.wikipedia.org/wiki/The_Science_of_Interstellar\" title=\"The Science of Interstellar\">The Science of Interstellar</a></em>. Cinematographer <a href=\"https://en.wikipedia.org/wiki/Hoyte_van_Hoytema\" title=\"Hoyte van Hoytema\">Hoyte van Hoytema</a> shot it on <a href=\"https://en.wikipedia.org/wiki/35_mm_movie_film\" title=\"35 mm movie film\">35 mm movie film</a> in the <a href=\"https://en.wikipedia.org/wiki/Panavision\" title=\"Panavision\">Panavision</a> <a href=\"https://en.wikipedia.org/wiki/Anamorphic_format\" title=\"Anamorphic format\">anamorphic format</a> and <a href=\"https://en.wikipedia.org/wiki/IMAX\" title=\"IMAX\">IMAX</a> 70&nbsp;mm. Principal photography began in late 2013 and took place in <a href=\"https://en.wikipedia.org/wiki/Alberta\" title=\"Alberta\">Alberta</a>, <a href=\"https://en.wikipedia.org/wiki/Iceland\" title=\"Iceland\">Iceland</a>, and <a href=\"https://en.wikipedia.org/wiki/Los_Angeles\" title=\"Los Angeles\">Los Angeles</a>. <em>Interstellar</em> uses extensive practical and <a href=\"https://en.wikipedia.org/wiki/Miniature_effect\" title=\"Miniature effect\">miniature effects</a> and the company <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Double_Negative_(VFX)\" title=\"Double Negative (VFX)\">Double Negative</a> created additional <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Visual_effect\" title=\"Visual effect\">digital effects</a>.</p>\r\n\r\n<p><em>Interstellar</em> premiered on October 26, 2014, in Los Angeles. In the United States, it was first released on <a href=\"https://en.wikipedia.org/wiki/Film_stock\" title=\"Film stock\">film stock</a>, expanding to venues using digital projectors. The film had a worldwide gross over $677&nbsp;million (and $773&nbsp;million with subsequent re-releases), making it the <a href=\"https://en.wikipedia.org/wiki/2014_in_film#Highest-grossing_films\" title=\"2014 in film\">tenth-highest grossing film of 2014</a>. It received acclaim for its performances, direction, screenplay, musical score, visual effects, ambition, themes, and emotional weight. It has also received praise from many astronomers for its scientific accuracy and portrayal of theoretical astrophysics. Since its premiere, <em>Interstellar</em> gained a <a href=\"https://en.wikipedia.org/wiki/Cult_following\" title=\"Cult following\">cult following</a>,<a href=\"https://en.wikipedia.org/wiki/Interstellar_(film)#cite_note-5\">[5]</a> and now is regarded by many sci-fi experts as one of the <a href=\"https://en.wikipedia.org/wiki/List_of_films_considered_the_best#Science_fiction\" title=\"List of films considered the best\">best science-fiction films of all time</a>.<a href=\"https://en.wikipedia.org/wiki/Interstellar_(film)#cite_note-6\">[6]</a><a href=\"https://en.wikipedia.org/wiki/Interstellar_(film)#cite_note-7\">[7]</a> <em>Interstellar</em> was nominated for five awards at the <a href=\"https://en.wikipedia.org/wiki/87th_Academy_Awards\" title=\"87th Academy Awards\">87th Academy Awards</a>, winning <a href=\"https://en.wikipedia.org/wiki/Academy_Award_for_Best_Visual_Effects\" title=\"Academy Award for Best Visual Effects\">Best Visual Effects</a>, and received <a href=\"https://en.wikipedia.org/wiki/List_of_accolades_received_by_Interstellar\" title=\"List of accolades received by Interstellar\">numerous other accolades</a>.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-05T11:09:39.915Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 13,
+  "fields": {
+    "author": 1,
+    "title": "Tenet",
+    "short_description": "Tenet is a 2020 science fiction action thriller film",
+    "description": "<p><em><strong>Tenet</strong></em> is a 2020 <a href=\"https://en.wikipedia.org/wiki/Science_fiction_film\" title=\"Science fiction film\">science fiction</a> <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Action_thriller_film\" title=\"Action thriller film\">action thriller film</a> directed and written by <a href=\"https://en.wikipedia.org/wiki/Christopher_Nolan\" title=\"Christopher Nolan\">Christopher Nolan</a>, who also produced with his wife <a href=\"https://en.wikipedia.org/wiki/Emma_Thomas\" title=\"Emma Thomas\">Emma Thomas</a>. A co-production between the United Kingdom and the United States, it stars <a href=\"https://en.wikipedia.org/wiki/John_David_Washington\" title=\"John David Washington\">John David Washington</a>, <a href=\"https://en.wikipedia.org/wiki/Robert_Pattinson\" title=\"Robert Pattinson\">Robert Pattinson</a>, <a href=\"https://en.wikipedia.org/wiki/Elizabeth_Debicki\" title=\"Elizabeth Debicki\">Elizabeth Debicki</a>, <a href=\"https://en.wikipedia.org/wiki/Dimple_Kapadia\" title=\"Dimple Kapadia\">Dimple Kapadia</a>, <a href=\"https://en.wikipedia.org/wiki/Michael_Caine\" title=\"Michael Caine\">Michael Caine</a>, and <a href=\"https://en.wikipedia.org/wiki/Kenneth_Branagh\" title=\"Kenneth Branagh\">Kenneth Branagh</a>. The film follows a former <a href=\"https://en.wikipedia.org/wiki/Central_Intelligence_Agency\" title=\"Central Intelligence Agency\">CIA</a> agent who learns how to manipulate the <a href=\"https://en.wikipedia.org/wiki/Arrow_of_time\" title=\"Arrow of time\">flow of time</a> to prevent an attack from the future that threatens to annihilate the present world. Nolan continued his relationship with <a href=\"https://en.wikipedia.org/wiki/Warner_Bros._Pictures\" title=\"Warner Bros. Pictures\">Warner Bros.</a> and his production company <a href=\"https://en.wikipedia.org/wiki/Syncopy_Inc.\" title=\"Syncopy Inc.\">Syncopy</a> for the film&#39;s production and distribution.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": true,
+    "created_at": "2023-03-05T12:00:22.921Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 14,
+  "fields": {
+    "author": 10,
+    "title": "Warcraft (film)",
+    "short_description": "Warcraft (alternatively known as Warcraft: The Beginning)[4] is a 2016 action fantasy film based on the video game series of the same name.",
+    "description": "<p>Directed by <a href=\"https://en.wikipedia.org/wiki/Duncan_Jones\" title=\"Duncan Jones\">Duncan Jones</a> and written by <a href=\"https://en.wikipedia.org/wiki/Charles_Leavitt\" title=\"Charles Leavitt\">Charles Leavitt</a> and Jones, it stars <a href=\"https://en.wikipedia.org/wiki/Travis_Fimmel\" title=\"Travis Fimmel\">Travis Fimmel</a>, <a href=\"https://en.wikipedia.org/wiki/Paula_Patton\" title=\"Paula Patton\">Paula Patton</a>, <a href=\"https://en.wikipedia.org/wiki/Ben_Foster_(actor)\" title=\"Ben Foster (actor)\">Ben Foster</a>, <a href=\"https://en.wikipedia.org/wiki/Dominic_Cooper\" title=\"Dominic Cooper\">Dominic Cooper</a>, <a href=\"https://en.wikipedia.org/wiki/Toby_Kebbell\" title=\"Toby Kebbell\">Toby Kebbell</a>, <a href=\"https://en.wikipedia.org/wiki/Ben_Schnetzer\" title=\"Ben Schnetzer\">Ben Schnetzer</a>, <a href=\"https://en.wikipedia.org/wiki/Robert_Kazinsky\" title=\"Robert Kazinsky\">Robert Kazinsky</a>, and <a href=\"https://en.wikipedia.org/wiki/Daniel_Wu\" title=\"Daniel Wu\">Daniel Wu</a>. The film follows Anduin Lothar of Stormwind and Durotan of the Frostwolf clan as heroes set on opposite sides of a growing war, as the warlock Gul&#39;dan leads the Horde to invade Azeroth using a magic portal. Together, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war and restore peace.</p>\r\n\r\n<p>The film was first announced in 2006 as a project partnership between <a href=\"https://en.wikipedia.org/wiki/Legendary_Entertainment\" title=\"Legendary Entertainment\">Legendary Pictures</a> and the game&#39;s developer, <a href=\"https://en.wikipedia.org/wiki/Blizzard_Entertainment\" title=\"Blizzard Entertainment\">Blizzard Entertainment</a>.<a href=\"https://en.wikipedia.org/wiki/Warcraft_(film)#cite_note-blizz06pr-5\">[5]</a> <em>Warcraft</em> premiered in Paris on May 24, 2016, and was released by <a href=\"https://en.wikipedia.org/wiki/Universal_Pictures\" title=\"Universal Pictures\">Universal Pictures</a> in the United States on June 10, 2016.<a href=\"https://en.wikipedia.org/wiki/Warcraft_(film)#cite_note-release-date-6\">[6]</a> The film underperformed domestically with a box-office total of $47.4 million in the United States<a href=\"https://en.wikipedia.org/wiki/Warcraft_(film)#cite_note-7\">[7]</a> and received generally negative reviews from critics. However, the film managed to gross $439 million worldwide based on its considerable success in China, where it grossed $225.5 million, making it the <a href=\"https://en.wikipedia.org/wiki/List_of_highest-grossing_films_based_on_video_games\" title=\"List of highest-grossing films based on video games\">highest-grossing video game adaptation of all time</a> (although it still failed to reach its <a href=\"https://en.wikipedia.org/wiki/Break-even\" title=\"Break-even\">break-even</a> point of $500 million after global marketing and distribution costs).</p>\r\n\r\n<p>Draenor, homeworld to the <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Races_and_factions_of_Warcraft#Orcs\" title=\"Races and factions of Warcraft\">orcs</a>, is being torn apart by a mysterious force known as fel magic. Gul&#39;dan, an orc warlock, unites the orc clans into the Horde, and creates a portal to the world of <a href=\"https://en.wikipedia.org/wiki/Warcraft#Azeroth\" title=\"Warcraft\">Azeroth</a> by using fel magic to drain the life out of captive <a class=\"mw-redirect\" href=\"https://en.wikipedia.org/wiki/Draenei\" title=\"Draenei\">draenei</a>. Gul&#39;dan leads a small warband through the portal to capture and sacrifice prisoners on Azeroth to bring the Horde. Durotan, the chieftain of the Frostwolf Clan, his pregnant mate Draka, and his friend Orgrim Doomhammer join this initial warband. When the orcs arrive on Azeroth, Draka goes into labor, and Gul&#39;dan rescues the dying baby, named Go&#39;el, by draining the life out of a nearby deer to revive and infuse him with fel magic. The orcs raid several settlements throughout Azeroth. Anduin Lothar, commander of the human forces of Stormwind Kingdom, finds a trespassing mage named Khadgar investigating the bodies of the slain men, who explains that the bodies contained traces of fel magic. Stormwind&#39;s king, Llane Wrynn, sends them to the stronghold Karazhan to inform Medivh, the Guardian of Tirisfal, of the fel magic&#39;s presence on Azeroth.</p>\r\n\r\n<p>Lothar, Khadgar, and Medivh join a scouting team following traces of fel magic, but are ambushed by orcs. Medivh uses a spell to kill the fel-corrupted orcs, leaving the Horde&#39;s warchief, Blackhand, to flee along with Durotan and Orgrim. The team takes a half-orc slave, Garona, as prisoner, but Llane releases her in exchange for loyalty to Stormwind. Garona leads the humans to spy on the orc camp, where they learn of Gul&#39;dan&#39;s plan to bring the Horde to Azeroth. While studying a book found in Medivh&#39;s library, Khadgar realizes that Gul&#39;dan had help from someone in Azeroth opening the portal. Despite Orgrim&#39;s objections, Durotan meets with Llane secretly to unite the Frostwolf Clan and the humans against Gul&#39;dan, but the group is ambushed by Blackhand. Medivh forms a magical barrier to protect the humans&#39; retreat, but Lothar&#39;s son Callan is separated from the group and killed by Blackhand. Medivh is weakened, and Garona and Khadgar take him back to Karazhan to recover. After noticing Medivh&#39;s eyes shine green, Khadgar realizes that he has been corrupted by fel magic and that he is the one who helped Gul&#39;dan. At the orc camp, Blackhand purges the Frostwolf Clan. Orgrim helps Draka to escape, and she sends Go&#39;el down a river in a basket, but is found and killed.</p>",
+    "image": "",
+    "is_posted": true,
+    "is_published": false,
+    "created_at": "2023-03-13T18:01:33.241Z"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "username": "testuser",
+    "text": "some comment text",
+    "is_published": true,
+    "created_at": "2023-03-01T16:18:35.740Z",
+    "post": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "username": "new comment",
+    "text": "soem sososos",
+    "is_published": false,
+    "created_at": "2023-03-01T18:04:33.193Z",
+    "post": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "username": "someuser",
+    "text": "asdasd",
+    "is_published": false,
+    "created_at": "2023-03-01T18:25:27.913Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "username": "someuser",
+    "text": "asdasd",
+    "is_published": false,
+    "created_at": "2023-03-01T18:26:20.825Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": false,
+    "created_at": "2023-03-04T12:06:42.238Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": true,
+    "created_at": "2023-03-04T12:07:53.880Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": false,
+    "created_at": "2023-03-04T12:09:10.760Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": false,
+    "created_at": "2023-03-04T12:09:48.609Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": false,
+    "created_at": "2023-03-04T12:11:07.259Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "username": "no",
+    "text": "some text comment",
+    "is_published": false,
+    "created_at": "2023-03-04T12:13:55.378Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 11,
+  "fields": {
+    "username": "admin",
+    "text": "hhh",
+    "is_published": false,
+    "created_at": "2023-03-04T12:14:49.771Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 12,
+  "fields": {
+    "username": "admin",
+    "text": "ters",
+    "is_published": false,
+    "created_at": "2023-03-04T12:15:01.461Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 13,
+  "fields": {
+    "username": "admin",
+    "text": "ters",
+    "is_published": false,
+    "created_at": "2023-03-04T12:15:43.107Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 14,
+  "fields": {
+    "username": "admin",
+    "text": "ters",
+    "is_published": false,
+    "created_at": "2023-03-04T12:17:01.760Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 15,
+  "fields": {
+    "username": "admin",
+    "text": "ters",
+    "is_published": false,
+    "created_at": "2023-03-04T12:17:50.274Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 16,
+  "fields": {
+    "username": "admin",
+    "text": "ters",
+    "is_published": false,
+    "created_at": "2023-03-04T12:25:29.466Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 17,
+  "fields": {
+    "username": "admin",
+    "text": "texttt",
+    "is_published": false,
+    "created_at": "2023-03-04T12:26:17.133Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 18,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": false,
+    "created_at": "2023-03-04T12:29:31.148Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 19,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": false,
+    "created_at": "2023-03-04T12:31:34.838Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 20,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": false,
+    "created_at": "2023-03-04T12:31:46.572Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 21,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": false,
+    "created_at": "2023-03-04T12:32:09.111Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 22,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": true,
+    "created_at": "2023-03-04T12:34:27.516Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 23,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": true,
+    "created_at": "2023-03-04T12:36:54.138Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 24,
+  "fields": {
+    "username": "admin",
+    "text": "textt",
+    "is_published": true,
+    "created_at": "2023-03-04T12:37:20.347Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 25,
+  "fields": {
+    "username": "admin",
+    "text": "test text",
+    "is_published": true,
+    "created_at": "2023-03-04T12:41:17.560Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 26,
+  "fields": {
+    "username": "admin",
+    "text": "another comment",
+    "is_published": true,
+    "created_at": "2023-03-04T12:42:53.048Z",
+    "post": null
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 27,
+  "fields": {
+    "username": "someuserr",
+    "text": "some text",
+    "is_published": true,
+    "created_at": "2023-03-04T13:00:33.036Z",
+    "post": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 28,
+  "fields": {
+    "username": "admin",
+    "text": "test text",
+    "is_published": true,
+    "created_at": "2023-03-04T13:00:59.590Z",
+    "post": 6
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 29,
+  "fields": {
+    "username": "Barakuda",
+    "text": "Barakuda comment",
+    "is_published": true,
+    "created_at": "2023-03-04T13:01:52.719Z",
+    "post": 6
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 30,
+  "fields": {
+    "username": "somehacker",
+    "text": "test comment from hacker",
+    "is_published": true,
+    "created_at": "2023-03-04T13:02:59.164Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 31,
+  "fields": {
+    "username": "anon",
+    "text": "testing",
+    "is_published": true,
+    "created_at": "2023-03-04T13:21:32.024Z",
+    "post": 4
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 32,
+  "fields": {
+    "username": "kaliadmin",
+    "text": "pam pam",
+    "is_published": true,
+    "created_at": "2023-03-04T13:42:07.632Z",
+    "post": 4
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 33,
+  "fields": {
+    "username": "vara",
+    "text": "send com",
+    "is_published": true,
+    "created_at": "2023-03-04T16:34:24.464Z",
+    "post": 4
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 34,
+  "fields": {
+    "username": "nore",
+    "text": "norek",
+    "is_published": true,
+    "created_at": "2023-03-04T17:27:51.668Z",
+    "post": 4
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 35,
+  "fields": {
+    "username": "tera",
+    "text": "tera",
+    "is_published": true,
+    "created_at": "2023-03-04T18:40:43.764Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 36,
+  "fields": {
+    "username": "anon",
+    "text": "anon comments",
+    "is_published": true,
+    "created_at": "2023-03-04T18:41:48.175Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 37,
+  "fields": {
+    "username": "nore",
+    "text": "corebyr",
+    "is_published": true,
+    "created_at": "2023-03-04T18:43:33.045Z",
+    "post": 5
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 38,
+  "fields": {
+    "username": "new",
+    "text": "new",
+    "is_published": true,
+    "created_at": "2023-03-05T08:35:44.129Z",
+    "post": 5
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 39,
+  "fields": {
+    "username": "sera",
+    "text": "sera",
+    "is_published": true,
+    "created_at": "2023-03-05T08:57:22.987Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 40,
+  "fields": {
+    "username": "red",
+    "text": "green",
+    "is_published": true,
+    "created_at": "2023-03-05T08:58:36.496Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 41,
+  "fields": {
+    "username": "sera",
+    "text": "sera",
+    "is_published": true,
+    "created_at": "2023-03-05T09:22:50.917Z",
+    "post": 5
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 42,
+  "fields": {
+    "username": "aver",
+    "text": "aver",
+    "is_published": true,
+    "created_at": "2023-03-05T09:23:56.951Z",
+    "post": 5
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 43,
+  "fields": {
+    "username": "regis",
+    "text": "regis",
+    "is_published": true,
+    "created_at": "2023-03-05T09:27:13.045Z",
+    "post": 4
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 44,
+  "fields": {
+    "username": "caramba",
+    "text": "caramba",
+    "is_published": true,
+    "created_at": "2023-03-05T09:34:13.175Z",
+    "post": 8
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 45,
+  "fields": {
+    "username": "asre",
+    "text": "disare",
+    "is_published": true,
+    "created_at": "2023-03-05T10:48:13.211Z",
+    "post": 11
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 46,
+  "fields": {
+    "username": "anon",
+    "text": "avatar comment",
+    "is_published": true,
+    "created_at": "2023-03-05T11:03:46.535Z",
+    "post": 11
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 47,
+  "fields": {
+    "username": "ser",
+    "text": "sera",
+    "is_published": true,
+    "created_at": "2023-03-05T12:00:59.413Z",
+    "post": 12
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 48,
+  "fields": {
+    "username": null,
+    "text": "anon comment",
+    "is_published": false,
+    "created_at": "2023-03-07T16:13:45.426Z",
+    "post": 7
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 49,
+  "fields": {
+    "username": null,
+    "text": "new comment",
+    "is_published": false,
+    "created_at": "2023-03-13T18:32:54.806Z",
+    "post": 5
+  }
+}
+]
