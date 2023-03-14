@@ -32,11 +32,9 @@ urlpatterns = [
          name='change_password'),
     path("accounts/profile/post", PostByUserView.as_view(), name='post-author')
 
-]
-if settings.DEBUG:
-    import debug_toolbar
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,
+                                                                             document_root=settings.MEDIA_ROOT)
+urlpatterns +=[
 
-    urlpatterns += [
-        path('__debug__/', include('debug_toolbar.urls')),
-    ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL,
-                                                                                    document_root=settings.MEDIA_ROOT)
+    path('__debug__/', include('debug_toolbar.urls')),
+]

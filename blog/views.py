@@ -37,19 +37,14 @@ class UserProfileView(generic.DetailView):
     model = User
     template_name = 'registration/profile.html'
 
-    # def get_queryset(self):
-    #     return Post.objects.all().filter(author__id=self.request.user.id)
-
 
 class PostByUserView(generic.ListView):
     model = Post
-    paginate_by = 3
+    paginate_by = 4
     template_name = 'blog/post_by_user.html'
 
     def get_queryset(self):
         return Post.objects.select_related('author').filter(author_id=self.request.user.id)
-        # Post.objects.all().filter(author__id=self.request.user.id)
-        # Post.objects.select_related('author').filter(author_id=self.request.user.id)
 
 
 class UpdateProfileView(LoginRequiredMixin, generic.UpdateView):
@@ -144,6 +139,7 @@ class CommentCreateView(generic.CreateView):
     success_url = reverse_lazy('home')
 
 
+# realization contact us with ajax
 def contact_us(request):
     data = dict()
 

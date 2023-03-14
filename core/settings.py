@@ -76,7 +76,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
 
-                'core.context_processor.get_context_data',
+                'core.context_processor.get_context_data',  # include contact us
             ],
         },
     },
