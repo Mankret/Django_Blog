@@ -43,17 +43,18 @@
         <button type="button" class="btn btn-primary js-contact-us" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#contact_us" data-url="{% url 'contact-us' %}">Contact Us</button>
       </li>
       </ul>
-        <ul class="navbar-nav ml-auto">
+
+    </div>
+  </div>
+       <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                {% if user.is_authenticated %}
                   <li class="nav-item">
-                  <a class="nav-link" href= "{% url 'profile' user.id%}">{{user.username}}</a>
+                  <a class="nav-link" href= "{% url 'profile' user.id%}">{{request.user.username}}</a>
                   </li>
                {% endif %}
             </li>
         </ul>
-    </div>
-  </div>
 </nav>
 <div class="container">
     {% block content %}
